@@ -1,0 +1,90 @@
+body  {
+    background-image: url('photo-1623874514711-0f321325f318.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  .class1 {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'main main main main main main'
+    background-color: white;
+    color: red;
+    gap: 1px;
+}
+
+.grid {
+
+    border-radius: 1px;
+    padding: 20px;
+    font-size: 200%;
+}
+
+.a {
+    background-color: gray;
+    color: darkblue;
+    grid-row-start: 1;
+
+
+}
+
+.b{
+    height: 450px;
+    background-color: darkgrey;
+   grid-row-start: 2 ;
+  
+ 
+}
+
+.c{
+    height: 450px;
+    background-color: darkgrey;
+   grid-row-start: 3 ;
+ 
+}
+.d{
+    height: 450px;
+    background-color: darkgrey;
+   grid-row-start: 4 ;
+ 
+}
+.e{
+    height: 450px;
+    background-color: darkgray;
+   grid-row-start: 5 ;
+
+}
+
+
+
+
+
+.alignments1 {
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: white;
+    width: 400px;
+    height:60px
+    padding: 1px 2px 3px 4px;
+    margin:200px 500px
+}
+
+.alignments2 {
+    height: 175px;
+    background-color: cyan;
+    grid-row-start: 7;
+}
+
+
+
+span1 {
+    word-spacing: 200px;
+}
+
+/*Sources for background picture APA:
+
+- Girven, S.(2021).𝘛𝘪𝘮𝘦 𝘵𝘰 𝘎𝘦𝘵 𝘍𝘪𝘵[infographic]. unsplash. 
+https://unsplash.com/photos/fqMu99l8sqo */
